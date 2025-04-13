@@ -1,13 +1,13 @@
 # Parameterised Recursion we have used parameters in the function
-# def para(i,sum):
-#     if i <1:
-#         print(sum)
-#         return
-#     else:
-#         para(i-1,sum+i)
+def para(i,sum):
+    if i <1:
+        print(sum)
+        return
+    else:
+        para(i-1,sum+i)
 
-# i = int(input("Enter a number: "))
-# para(i,0)
+i = int(input("Enter a number: "))
+para(i,0)
 
 # Functional Recursion is a recursion that does not use any parameters in the function
 def fun(n):
